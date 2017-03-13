@@ -5,7 +5,7 @@
 <title>App Landing Page | Coded by Katherine Delorme</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <a href="" class="linkoutline">Learn More</a>
   </div>
   <div>
-    <img src="" alt="two phones displaying the app tilted to the left" />
+    <img src="http://placehold.it/257x404" alt="two phones displaying the app tilted to the left" />
   </div>
   <div class="keypoints">
     <div class="points">
@@ -43,7 +43,7 @@
 <section>
   <h3>About Madari</h3>
   <div>
-    <img src="" alt="hand holding iphone featuring the app" />
+    <img src="http://placehold.it/317x478" alt="hand holding iphone featuring the app" />
   </div>
   <div>
     <h4><span>Madari</span>is the best app for your business</h4>
@@ -68,7 +68,7 @@
     <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
   </div>
   <div>
-    <img src="" alt="A page of the app displayed on an iphone" />
+    <img src="http://placehold.it/261x505" alt="A page of the app displayed on an iphone" />
   </div>
   <div>
     <i class="fa fa-cloud-upload fa-2x" aria-hidden="true"></i>
@@ -114,6 +114,13 @@
 </section>
 
 <footer>
+  <a href="https://www.facebook.com/KatdelormeKatdesign/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/Katdelorme" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  <a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+  <a href="https://dribbble.com/KatherineDelorme" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+  <p>&copy; 2017 copyright All rights reserved MADARI app</p>
+  <p>Site mockup by <a href="https://dribbble.com/shots/3336517-Best-App-Landing-page" target="_blank">Ibrahim Emran</a> Coded with &hearts; by <a href="https://github.com/Katdelorme/App-Landing-Page" target="_blank">Katherine Delorme</a></p>
 </footer>
 </body>
 </html>
