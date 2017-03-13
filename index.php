@@ -18,19 +18,25 @@
   <div>
     <h2>Madari is the Best</h2>
     <h1>Best Landing Page to Present Your App</h1>
-    <a href=""><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
-    <a href="">Learn More</a>
+    <a href="" class="linksecondary"><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
+    <a href="" class="linkoutline">Learn More</a>
   </div>
   <div>
     <img src="" alt="two phones displaying the app tilted to the left" />
   </div>
-  <div>
-    <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
-    <p>25k Download</p>
-    <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
-    <p>19k Active Accounts</p>
-    <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-    <p>4.5 App Rating</p>
+  <div class="keypoints">
+    <div class="points">
+      <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
+      <p>25k Download</p>
+    </div>
+    <div class="points">
+      <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
+      <p>19k Active Accounts</p>
+    </div>
+    <div class="points">
+      <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+      <p>4.5 App Rating</p>
+    </div>
   </div>
 </section>
 
@@ -43,8 +49,8 @@
     <h4><span>Madari</span>is the best app for your business</h4>
     <p>Qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis itempor incididunt ut labore et dolore magna aliqua.</p>
     <p>Ut enim ad minim vienia no<br/>strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate goi velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <a href=""><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
-    <a href=""><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
+    <a href="" class="linksecondary"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a> 
+    <a href="" class="linkprimary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
   </div>
 </section>
 
@@ -54,7 +60,7 @@
     <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
     <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
     <i class="fa fa-user fa-2x" aria-hidden="true"></i>
-    <h4>Great & Fast service</h4>
+    <h4>Great &amp; Fast service</h4>
     <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
     <h4>High quality products</h4>
     <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
@@ -81,7 +87,7 @@
   <h3>Awesome Services</h3>
   <div>
     <i class="fa fa-calendar" aria-hidden="true"></i>
-    <h4>Events & Counters</h4>
+    <h4>Events &amp; Counters</h4>
     <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
   </div>
   <div>
