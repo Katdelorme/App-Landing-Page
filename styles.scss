@@ -1,19 +1,32 @@
-$primary{color:#7f65c7;}
-$secndary{color:#c19b00;}
+$primary{color:#7f65c7;} //purple
+$secndary{color:#c19b00;} //gold
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
 h1 {
+  font-size: 4.2em;
   text-transform: uppercase;
 }
 h2 {
+  font-size: 2em;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 h3 {
+  color: $primary;
+  font-size: 2.5em;
   text-transform: uppercase;
 }
+h3:odd{
+  color: #ffffff;
+}
 h4 {
-  color: $primary;
+  font-size: 2em;
   text-transform: capitalize;
 }
+
 
 section{
   margin:0 15%;
@@ -21,4 +34,59 @@ section{
 }
 section:odd{
   background-color: $secondary;
+}
+
+.button{
+  // supposedly default background-color:transparent;
+  border-radius: 3.25em;
+  font-size: 1.125em;
+  font-weight: 700;
+  // height: 50px; //if not padding
+  padding: 1em 1.25em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.linkprimary:link{
+  color: $primary;
+  border: 1px solid $primary;
+}
+.linkprimary:visited{
+  color: $primary;
+}
+.linkprimary:hover{
+  border: 1px solid $secondary;
+}
+.linkprimary:active{
+  color: $primary;
+}
+
+.linksecondary:link{
+  background-color: $secondary;
+  color: $ffffff;
+}
+.linksecondary:visited{
+  color: $ffffff;
+}
+.linksecondary:hover{
+  background-color: $primary;
+}
+.linksecondary:active{
+  color: $ffffff;
+}
+
+.linkoutline:link{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.linkoutline:visited{
+  color: #ffffff;
+}
+.linkoutline:hover{
+  color: #000000;
+}
+.linkoutline:active{
+  color: #ffffff;
 }
