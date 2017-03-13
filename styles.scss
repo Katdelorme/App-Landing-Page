@@ -1,0 +1,24 @@
+$primary{color:#7f65c7;}
+$secndary{color:#c19b00;}
+
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+}
+h3 {
+  text-transform: uppercase;
+}
+h4 {
+  color: $primary;
+  text-transform: capitalize;
+}
+
+section{
+  margin:0 15%;
+  width: 70%;
+}
+section:odd{
+  background-color: $secondary;
+}
