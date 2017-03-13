@@ -10,7 +10,11 @@
 
 <body>
 <header>
+  <div class="logo">
+    <img src="http://placehold.it/140x30" alt="Logo for the Madari App" />
+  </div>
   <nav>
+    https://codepen.io/g13nn/pen/eHGEF
   </nav>
 </header>
 
@@ -122,5 +126,8 @@
   <p>&copy; 2017 copyright All rights reserved MADARI app</p>
   <p>Site mockup by <a href="https://dribbble.com/shots/3336517-Best-App-Landing-page" target="_blank">Ibrahim Emran</a> Coded with &hearts; by <a href="https://github.com/Katdelorme/App-Landing-Page" target="_blank">Katherine Delorme</a></p>
 </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js.js"></script>
+  
 </body>
 </html>
