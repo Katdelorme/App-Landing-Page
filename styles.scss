@@ -1,10 +1,11 @@
+@import 'reset';
+
 $primary{color:#7f65c7;} //purple
 $secndary{color:#c19b00;} //gold
 
 body{
   font-family: 'Montserrat', sans-serif;
 }
-
 h1 {
   font-size: 4.2em;
   text-transform: uppercase;
@@ -26,8 +27,6 @@ h4 {
   font-size: 2em;
   text-transform: capitalize;
 }
-
-
 section{
   margin:0 15%;
   width: 70%;
@@ -35,7 +34,6 @@ section{
 section:odd{
   background-color: $secondary;
 }
-
 .button{
   // supposedly default background-color:transparent;
   border-radius: 3.25em;
@@ -48,8 +46,8 @@ section:odd{
   text-transform: uppercase;
   white-space: nowrap;
 }
-
 .linkprimary:link{
+  @extend .button;
   color: $primary;
   border: 1px solid $primary;
 }
@@ -62,8 +60,8 @@ section:odd{
 .linkprimary:active{
   color: $primary;
 }
-
 .linksecondary:link{
+  @extend .button;
   background-color: $secondary;
   color: $ffffff;
 }
@@ -76,8 +74,8 @@ section:odd{
 .linksecondary:active{
   color: $ffffff;
 }
-
 .linkoutline:link{
+  @extend .button;
   color: #ffffff;
   border: 1px solid #ffffff;
 }
@@ -89,4 +87,26 @@ section:odd{
 }
 .linkoutline:active{
   color: #ffffff;
+}
+
+///////////////////
+.keypoints{
+  display: flex;
+}
+.points{
+  align-content: center;
+  align-items: center;
+  border-right: 1px solid $secondary;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 2%;
+  width: 32%;
+  
+  -webkit-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
+  -moz-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
+  box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
+}
+.keypoints:last-child{
+  border-right: none;
 }
