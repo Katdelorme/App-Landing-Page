@@ -7,10 +7,13 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 h1 {
+  color: #ffffff;
   font-size: 4.2em;
+  line-height: 200%;
   text-transform: uppercase;
 }
 h2 {
+  color: #ffffff;
   font-size: 2em;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -20,15 +23,21 @@ h3 {
   font-size: 2.5em;
   text-transform: uppercase;
 }
+h3:after{
+  content:url(http://placehold.it/250x40);
+}
 h3:odd{
   color: #ffffff;
 }
 h4 {
   font-size: 2em;
   text-transform: capitalize;
+  span {
+    color: $primary;
+  }
 }
 section{
-  margin:0 15%;
+  padding:0 15%;
   width: 70%;
 }
 section:odd{
@@ -48,8 +57,8 @@ section:odd{
 }
 .linkprimary:link{
   @extend .button;
-  color: $primary;
   border: 1px solid $primary;
+  color: $primary;
 }
 .linkprimary:visited{
   color: $primary;
@@ -88,8 +97,21 @@ section:odd{
 .linkoutline:active{
   color: #ffffff;
 }
-
-///////////////////
+/* header */
+header{
+  background-color: $secondary;
+  border-bottom: 1px solid #ffffff;
+  min-height:50px;
+  padding:0 15%;
+  width: 70%;
+}
+.logo{
+  float:left;
+}
+.nav{
+  float:right;
+}
+/* general */
 .keypoints{
   display: flex;
 }
@@ -101,7 +123,8 @@ section:odd{
   flex: 1;
   justify-content: center;
   margin: 2%;
-  width: 32%;
+  width: 1 / 3 * 100%;
+  //width: 32%;
   
   -webkit-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
   -moz-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
@@ -110,3 +133,24 @@ section:odd{
 .keypoints:last-child{
   border-right: none;
 }
+/* footer */
+footer{
+  a{
+   border: 1px solid $primary;
+   border-radius: 100%;   
+   color: $primary;
+   display: inline-block;
+   //line-height:100px;
+   height: 25px;
+   text-decoration: none; 
+   width: 25px;
+  }
+  a:hover{
+   background-color: $secondary;
+   border: $secondary;
+  }
+ p{
+   text-align:center;
+  }
+}
+/* Media Queries */
