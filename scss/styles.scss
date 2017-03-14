@@ -21,13 +21,13 @@ h2 {
 h3 {
   color: $primary;
   font-size: 2.5em;
+  text-align: center;
   text-transform: uppercase;
 }
 h3:after{
   content:url(http://placehold.it/250x40);
-}
-h3:odd{
-  color: #ffffff;
+  display: block;
+  margin-bottom:3%;
 }
 h4 {
   font-size: 2em;
@@ -37,11 +37,15 @@ h4 {
   }
 }
 section{
+  display: inline-block;
   padding:5% 15%;
   width: 70%;
 }
 section:nth-of-type(odd){
   background-color: $primary;
+  h3{
+    color: #ffffff;
+  }
 }
 .button{
   // supposedly default background-color:transparent;
@@ -127,7 +131,7 @@ header{
   -moz-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
   box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
 }
-.keypoints:last-child{
+.keypoints div:last-child{
   border-right: none;
 }
 .intro{ 
