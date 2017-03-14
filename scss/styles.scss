@@ -9,7 +9,7 @@ body{
 h1 {
   color: #ffffff;
   font-size: 4.2em;
-  line-height: 200%;
+  line-height: 150%;
   text-transform: uppercase;
 }
 h2 {
@@ -21,13 +21,13 @@ h2 {
 h3 {
   color: $primary;
   font-size: 2.5em;
+  text-align: center;
   text-transform: uppercase;
 }
 h3:after{
   content:url(http://placehold.it/250x40);
-}
-h3:odd{
-  color: #ffffff;
+  display: block;
+  margin-bottom:3%;
 }
 h4 {
   font-size: 2em;
@@ -37,11 +37,15 @@ h4 {
   }
 }
 section{
-  padding:0 15%;
+  display: inline-block;
+  padding:5% 15%;
   width: 70%;
 }
-section:nth-child(odd){
+section:nth-of-type(odd){
   background-color: $primary;
+  h3{
+    color: #ffffff;
+  }
 }
 .button{
   // supposedly default background-color:transparent;
@@ -99,17 +103,14 @@ section:nth-child(odd){
 }
 /* header */
 header{
+  align-items: center;
   background-color: $primary;
   border-bottom: 1px solid #ffffff;
-  min-height:50px;
+  display: flex;
+  justify-content: space-between;
+  min-height:70px;
   padding:0 15%;
   width: 70%;
-}
-.logo{
-  float:left;
-}
-.nav{
-  float:right;
 }
 /* general */
 .keypoints{
@@ -130,9 +131,26 @@ header{
   -moz-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
   box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
 }
-.keypoints:last-child{
+.keypoints div:last-child{
   border-right: none;
 }
+.intro{ 
+    div{
+      display: inline-block;
+        &:first-child{
+          float: left;
+          width:70%;
+         }
+        &:nth-child(2){
+          float: left;
+          width:30%;
+          img{
+           width:100%;
+          }
+        }
+    }
+} 
+
 /* footer */
 footer{
   a{

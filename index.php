@@ -18,7 +18,7 @@
   </nav>
 </header>
 
-<section>
+<section class="intro">
   <div>
     <h2>Madari is the Best</h2>
     <h1>Best Landing Page to Present Your App</h1>
