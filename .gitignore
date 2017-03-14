@@ -39,3 +39,9 @@ Thumbs.db
 # Photoshop Document #
 ######################
 *.psd
+
+# My Documents *
+######################
+*txt
+*public/
+*.sass-cache/

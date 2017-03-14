@@ -1,0 +1,147 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+h1 {
+  color: #ffffff;
+  font-size: 4.2em;
+  line-height: 200%;
+  text-transform: uppercase; }
+
+h2 {
+  color: #ffffff;
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+h3 {
+  color: #7f65c7;
+  font-size: 2.5em;
+  text-transform: uppercase; }
+
+h3:after {
+  content: url(http://placehold.it/250x40); }
+
+h3:odd {
+  color: #ffffff; }
+
+h4 {
+  font-size: 2em;
+  text-transform: capitalize; }
+  h4 span {
+    color: #7f65c7; }
+
+section {
+  padding: 0 15%;
+  width: 70%; }
+
+section:nth-child(odd) {
+  background-color: #7f65c7; }
+
+.button, .linkprimary:link, .linksecondary:link, .linkoutline:link {
+  border-radius: 3.25em;
+  font-size: 1.125em;
+  font-weight: 700;
+  padding: 1em 1.25em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
+.linkprimary:link {
+  border: 1px solid #7f65c7;
+  color: #7f65c7; }
+
+.linkprimary:visited {
+  color: #7f65c7; }
+
+.linkprimary:hover {
+  border: 1px solid #c19b00; }
+
+.linkprimary:active {
+  color: #7f65c7; }
+
+.linksecondary:link {
+  background-color: #c19b00;
+  color: #ffffff; }
+
+.linksecondary:visited {
+  color: #ffffff; }
+
+.linksecondary:hover {
+  background-color: #7f65c7; }
+
+.linksecondary:active {
+  color: #ffffff; }
+
+.linkoutline:link {
+  color: #ffffff;
+  border: 1px solid #ffffff; }
+
+.linkoutline:visited {
+  color: #ffffff; }
+
+.linkoutline:hover {
+  color: #000000; }
+
+.linkoutline:active {
+  color: #ffffff; }
+
+/* header */
+header {
+  background-color: #7f65c7;
+  border-bottom: 1px solid #ffffff;
+  min-height: 50px;
+  padding: 0 15%;
+  width: 70%; }
+
+.logo {
+  float: left; }
+
+.nav {
+  float: right; }
+
+/* general */
+.keypoints {
+  display: flex; }
+
+.points {
+  align-content: center;
+  align-items: center;
+  border-right: 1px solid #c19b00;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 2%;
+  width: 33.33333%;
+  -webkit-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
+  -moz-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
+  box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11); }
+
+.keypoints:last-child {
+  border-right: none; }
+
+/* footer */
+footer a {
+  border: 1px solid #7f65c7;
+  border-radius: 100%;
+  color: #7f65c7;
+  display: inline-block;
+  height: 25px;
+  text-decoration: none;
+  width: 25px; }
+footer a:hover {
+  background-color: #c19b00;
+  border: #c19b00; }
+footer p {
+  text-align: center; }
+
+/* Media Queries */
+
+/*# sourceMappingURL=styles.css.map */
