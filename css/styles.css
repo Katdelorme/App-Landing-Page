@@ -1,23 +1,64 @@
-html,
-body,
-ul,
-ol {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 body {
   font-family: 'Montserrat', sans-serif; }
 
 h1 {
   color: #ffffff;
-  font-size: 4.2em;
+  font-size: 3.2em;
   line-height: 150%;
+  margin: 2% 0 5% 0;
   text-transform: uppercase; }
 
 h2 {
   color: #ffffff;
-  font-size: 2em;
-  letter-spacing: 2px;
+  font-size: 1.9em;
+  letter-spacing: 8px;
   text-transform: uppercase; }
 
 h3 {
@@ -49,8 +90,9 @@ section:nth-of-type(odd) {
 
 .button, .linkprimary:link, .linksecondary:link, .linkoutline:link {
   border-radius: 3.25em;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 700;
+  margin-right: 4%;
   padding: 1em 1.25em;
   text-align: center;
   text-decoration: none;
@@ -78,7 +120,8 @@ section:nth-of-type(odd) {
   color: #ffffff; }
 
 .linksecondary:hover {
-  background-color: #7f65c7; }
+  background-color: #ffffff;
+  color: #c19b00; }
 
 .linksecondary:active {
   color: #ffffff; }
@@ -100,7 +143,7 @@ section:nth-of-type(odd) {
 header {
   align-items: center;
   background-color: #7f65c7;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #c6bfd8;
   display: flex;
   justify-content: space-between;
   min-height: 70px;
@@ -134,9 +177,21 @@ header {
     width: 70%; }
   .intro div:nth-child(2) {
     float: left;
-    width: 30%; }
+    margin-left: 5%;
+    width: 25%; }
     .intro div:nth-child(2) img {
       width: 100%; }
+
+section:nth-of-type(2) div:first-of-type {
+  float: left;
+  width: 30%; }
+  section:nth-of-type(2) div:first-of-type img {
+    width: 100%; }
+section:nth-of-type(2) div:last-of-type {
+  background: green;
+  float: left;
+  margin-left: 10%;
+  width: 60%; }
 
 /* footer */
 footer a {

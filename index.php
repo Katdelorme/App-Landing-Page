@@ -50,10 +50,10 @@
     <img src="http://placehold.it/317x478" alt="hand holding iphone featuring the app" />
   </div>
   <div>
-    <h4><span>Madari</span>is the best app for your business</h4>
+    <h4><span>Madari</span> is the best app for your business</h4>
     <p>Qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis itempor incididunt ut labore et dolore magna aliqua.</p>
     <p>Ut enim ad minim vienia no<br/>strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate goi velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <a href="" class="linksecondary"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a> 
+    <a href="" class="linksecondary"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
     <a href="" class="linkprimary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
   </div>
 </section>
@@ -126,8 +126,8 @@
   <p>&copy; 2017 copyright All rights reserved MADARI app</p>
   <p>Site mockup by <a href="https://dribbble.com/shots/3336517-Best-App-Landing-page" target="_blank">Ibrahim Emran</a> Coded with &hearts; by <a href="https://github.com/Katdelorme/App-Landing-Page" target="_blank">Katherine Delorme</a></p>
 </footer>
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js.js"></script>
-  
+
 </body>
 </html>
