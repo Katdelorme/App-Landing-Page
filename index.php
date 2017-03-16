@@ -19,28 +19,28 @@
 </header>
 
 <section class="intro">
-  <div>
+  <div class="title">
     <h2>Madari is the Best</h2>
     <h1>Best Landing Page to Present Your App</h1>
     <a href="" class="linksecondary"><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
     <a href="" class="linkoutline">Learn More</a>
   </div>
-  <div>
+  <div class="topimg">
     <img src="http://placehold.it/257x404" alt="two phones displaying the app tilted to the left" />
   </div>
   <div class="keypoints">
-    <span class="points">
+    <div class="points">
       <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
       <p>25k Download</p>
-    </span>
-    <span class="points">
+    </div>
+    <div class="points">
       <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
       <p>19k Active Accounts</p>
-    </span>
-    <span class="points">
+    </div>
+    <div class="points">
       <i class="fa fa-star fa-2x" aria-hidden="true"></i>
       <p>4.5 App Rating</p>
-    </span>
+    </div>
   </div>
 </section>
 
