@@ -91,20 +91,22 @@
 
 <section>
   <h3>Awesome Services</h3>
-  <div>
-    <i class="fa fa-calendar" aria-hidden="true"></i>
-    <h4>Events &amp; Counters</h4>
-    <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
-  </div>
-  <div>
-    <i class="fa fa-cloud-download" aria-hidden="true"></i>
-    <h4>Data Storage</h4>
-    <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
-  </div>
-  <div>
-    <i class="fa fa-lock" aria-hidden="true"></i>
-    <h4>Security</h4>
-    <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
+  <div class="featuresholder">
+    <div>
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+      <h4>Events &amp; Counters</h4>
+      <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
+    </div>
+    <div>
+      <i class="fa fa-cloud-download" aria-hidden="true"></i>
+      <h4>Data Storage</h4>
+      <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
+    </div>
+    <div>
+      <i class="fa fa-lock" aria-hidden="true"></i>
+      <h4>Security</h4>
+      <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
+    </div>
   </div>
 </section>
 
