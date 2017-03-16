@@ -155,16 +155,16 @@ header {
   width: 70%; }
 
 /* general */
-.intro div .title {
+.intro .title {
   display: inline-block;
   float: left;
   width: 70%; }
-.intro div .topimg {
+.intro .topimg {
   display: inline-block;
   float: left;
   margin-left: 5%;
   width: 25%; }
-  .intro div .topimg img {
+  .intro .topimg img {
     width: 100%; }
 
 .keypoints {

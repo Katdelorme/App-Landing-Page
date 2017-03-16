@@ -121,7 +121,6 @@ header{
 }
 /* general */
 .intro{
-    div{
         .title{
           display: inline-block;
           float: left;
@@ -136,7 +135,6 @@ header{
            width:100%;
           }
         }
-    }
 }
 .keypoints{
   align-content: center;
@@ -152,7 +150,7 @@ header{
 }
 .points{
   align-content: center;
-  align-items: center;	
+  align-items: center;
   border-right: 1px solid #c19b00;
   display: flex;
   flex: 1;
@@ -198,8 +196,8 @@ section:nth-of-type(3) h4{
   align-items: center;
   display: flex;
   flex: 1;
-  justify-content: center;  
- } 
+  justify-content: center;
+ }
 section:nth-of-type(4) .featuresholder div{
     background-color: #eef3fa;
     margin: 2%;
