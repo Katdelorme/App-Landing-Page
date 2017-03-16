@@ -29,18 +29,18 @@
     <img src="http://placehold.it/257x404" alt="two phones displaying the app tilted to the left" />
   </div>
   <div class="keypoints">
-    <div class="points">
+    <span class="points">
       <i class="fa fa-heart-o fa-2x" aria-hidden="true"></i>
       <p>25k Download</p>
-    </div>
-    <div class="points">
+    </span>
+    <span class="points">
       <i class="fa fa-line-chart fa-2x" aria-hidden="true"></i>
       <p>19k Active Accounts</p>
-    </div>
-    <div class="points">
+    </span>
+    <span class="points">
       <i class="fa fa-star fa-2x" aria-hidden="true"></i>
       <p>4.5 App Rating</p>
-    </div>
+    </span>
   </div>
 </section>
 
@@ -60,30 +60,32 @@
 
 <section>
   <h3>App Features</h3>
-  <div>
-    <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-user fa-2x" aria-hidden="true"></i>
-    <h4>Great &amp; Fast service</h4>
-    <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-    <h4>High quality products</h4>
-    <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-    <h4>Creative design</h4>
-    <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-  </div>
-  <div>
-    <img src="http://placehold.it/261x505" alt="A page of the app displayed on an iphone" />
-  </div>
-  <div>
-    <i class="fa fa-cloud-upload fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
-    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
-    <h4>Daily New Update</h4>
-    <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-    <h4>High quality products</h4>
-    <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-    <h4>Ultra responsive</h4>
-    <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+  <div class="featuresholder">
+    <div>
+      <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+      <h4>Great &amp; Fast service</h4>
+      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      <h4>High quality products</h4>
+      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      <h4>Creative design</h4>
+      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+    </div>
+    <div>
+      <img src="http://placehold.it/261x505" alt="A page of the app displayed on an iphone" />
+    </div>
+    <div>
+      <i class="fa fa-cloud-upload fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+      <h4>Daily New Update</h4>
+      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      <h4>High quality products</h4>
+      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      <h4>Ultra responsive</h4>
+      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+    </div>
   </div>
 </section>
 
