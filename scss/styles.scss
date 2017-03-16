@@ -122,12 +122,13 @@ header{
 /* general */
 .intro{
     div{
-      display: inline-block;
-        &:first-child{
+        .title{
+          display: inline-block;
           float: left;
           width:70%;
          }
-        &:nth-child(2){
+        .topimg{
+          display: inline-block;
           float: left;
           margin-left: 5%;
           width:25%;
@@ -138,21 +139,26 @@ header{
     }
 }
 .keypoints{
+  align-content: center;
+  align-items: center;
   background-color: #ffffff;
+  clear: both;
   display: flex;
+  flex: 1;
+  justify-content: center;
   -webkit-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
   -moz-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
   box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
 }
 .points{
   align-content: center;
-  align-items: center;
-  border-right: 1px solid $secondary;
+  align-items: center;	
+  border-right: 1px solid #c19b00;
   display: flex;
   flex: 1;
   justify-content: center;
   margin: 2%;
-  width: 1 / 3 * 100% - 4;
+  //width: 1 / 3 * 100% - 4;
   //width: 32%;
 }
 .keypoints div:last-child{
@@ -168,7 +174,7 @@ section:nth-of-type(2){
           }
       }
       &:last-of-type{
-        background: green;
+        //background: green;
         float: left;
         margin-left: 10%;
         width: 60%;
@@ -179,6 +185,13 @@ section:nth-of-type(2){
     }
 
 }
+section:nth-of-type(3) div.featuresholder{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;  
+ }
 
 /* footer */
 footer{
