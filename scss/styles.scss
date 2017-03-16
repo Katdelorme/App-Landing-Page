@@ -32,6 +32,8 @@ h3:after{
 }
 h4 {
   font-size: 2em;
+  line-height: 150%;
+  margin-bottom: 4%;
   text-transform: capitalize;
   span {
     color: $primary;
@@ -51,6 +53,7 @@ section:nth-of-type(odd){
 .button{
   // supposedly default background-color:transparent;
   border-radius: 3.25em;
+  display: inline-block;
   font-size: 1em;
   font-weight: 700;
   // height: 50px; //if not padding
@@ -71,6 +74,7 @@ section:nth-of-type(odd){
 }
 .linkprimary:hover{
   border: 1px solid $secondary;
+  color: $secondary;
 }
 .linkprimary:active{
   color: $primary;
@@ -116,27 +120,6 @@ header{
   width: 70%;
 }
 /* general */
-.keypoints{
-  display: flex;
-}
-.points{
-  align-content: center;
-  align-items: center;
-  border-right: 1px solid $secondary;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  margin: 2%;
-  width: 1 / 3 * 100%;
-  //width: 32%;
-
-  -webkit-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
-  -moz-box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
-  box-shadow: 5px 25px 15px 0px rgba(0,4,88,0.11);
-}
-.keypoints div:last-child{
-  border-right: none;
-}
 .intro{
     div{
       display: inline-block;
@@ -154,7 +137,27 @@ header{
         }
     }
 }
-
+.keypoints{
+  background-color: #ffffff;
+  display: flex;
+  -webkit-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
+  -moz-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
+  box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
+}
+.points{
+  align-content: center;
+  align-items: center;
+  border-right: 1px solid $secondary;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 2%;
+  width: 1 / 3 * 100% - 4;
+  //width: 32%;
+}
+.keypoints div:last-child{
+  border-right: none;
+}
 section:nth-of-type(2){
     div{
       &:first-of-type{
@@ -169,6 +172,9 @@ section:nth-of-type(2){
         float: left;
         margin-left: 10%;
         width: 60%;
+          p {
+            margin-bottom:4%;
+          }
       }
     }
 
