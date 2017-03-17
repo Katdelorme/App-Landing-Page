@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>App Landing Page | Coded by Katherine Delorme</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -61,30 +61,54 @@
 <section>
   <h3>App Features</h3>
   <div class="featuresholder">
-    <div>
-      <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
-      <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
-      <i class="fa fa-user fa-2x" aria-hidden="true"></i>
-      <h4>Great &amp; Fast service</h4>
-      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-      <h4>High quality products</h4>
-      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-      <h4>Creative design</h4>
-      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+    <div class="appfeatures">
+      <div>
+        <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+      </div>
+      <div>
+        <h4>Great &amp; Fast service</h4>
+        <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      </div>
+      <div>
+        <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+      </div>
+      <div>
+        <h4>High quality products</h4>
+        <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      </div>
+      <div>
+        <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+      </div>
+      <div>
+        <h4>Creative design</h4>
+        <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      </div>
     </div>
-    <div>
+    <div class="appfeatures">
       <img src="http://placehold.it/261x505" alt="A page of the app displayed on an iphone" />
     </div>
     <div>
-      <i class="fa fa-cloud-upload fa-2x" aria-hidden="true"></i>
-      <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
-      <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
-      <h4>Daily New Update</h4>
-      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-      <h4>High quality products</h4>
-      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
-      <h4>Ultra responsive</h4>
-      <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      <div>
+        <i class="fa fa-cloud-upload fa-2x" aria-hidden="true"></i>
+      </div>
+      <div>
+        <h4>Daily New Update</h4>
+        <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      </div>
+      <div>
+        <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+      </div>
+      <div>
+        <h4>High quality products</h4>
+        <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      </div>
+      <div>
+        <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+      </div>
+      <div>
+        <h4>Ultra responsive</h4>
+        <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
+      </div>
     </div>
   </div>
 </section>
