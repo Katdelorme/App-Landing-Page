@@ -185,7 +185,8 @@ header {
   z-index: 1;
   -webkit-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
   -moz-box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
-  box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11); }
+  box-shadow: 5px 25px 15px 0px rgba(0, 4, 88, 0.11);
+  box-shadow: 0px 10px 15px 0px rgba(0, 4, 88, 0.11); }
 
 .points {
   border-right: 1px solid #c19b00;
@@ -211,27 +212,25 @@ section:nth-of-type(2) {
     width: 60%; }
     section:nth-of-type(2) div:last-of-type p {
       margin-bottom: 4%; }
+  section:nth-of-type(2) div .linksecondary:hover {
+    background-color: #7f65c7;
+    color: #ffffff; }
 
 section:nth-of-type(3) .featuresholder .appfeatures {
   padding-right: 2%; }
-section:nth-of-type(3) .featuresholder div {
-  /*padding-right: 2%;
-  &:last-child{
-    padding-right: 0;
-  }*/ }
-  section:nth-of-type(3) .featuresholder div div {
-    display: inline-block; }
-    section:nth-of-type(3) .featuresholder div div:nth-child(odd) {
-      background-color: #ffffff;
-      border-radius: 100%;
-      color: #7f65c7;
-      float: left;
-      margin-right: 5%;
-      text-align: center;
-      width: 15%; }
-    section:nth-of-type(3) .featuresholder div div:nth-child(even) {
-      float: left;
-      width: 80%; }
+section:nth-of-type(3) .featuresholder div div {
+  display: inline-block; }
+  section:nth-of-type(3) .featuresholder div div:nth-child(odd) {
+    background-color: #ffffff;
+    border-radius: 100%;
+    color: #7f65c7;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    width: 15%; }
+  section:nth-of-type(3) .featuresholder div div:nth-child(even) {
+    float: left;
+    width: 80%; }
 section:nth-of-type(3) .featuresholder h4 {
   font-size: 1.3em; }
 section:nth-of-type(3) .featuresholder p {
