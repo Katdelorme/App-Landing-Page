@@ -9,6 +9,6 @@ Original UI design by Ibrahim Emran
 
 
 
-                            CODE
+                                    CODE
 
-Hand coded and designed with &hearts; by Katherine Delorme<
+Hand coded and designed with &hearts; by Katherine Delorme
