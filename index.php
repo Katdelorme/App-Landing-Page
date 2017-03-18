@@ -66,21 +66,21 @@
         <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <h4>Great &amp; Fast service</h4>
+        <h5>Great &amp; Fast service</h5>
         <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <h4>High quality products</h4>
+        <h5>High quality products</h5>
         <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <i class="fa fa-user fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <h4>Creative design</h4>
+        <h5>Creative design</h5>
         <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
       </div>
     </div>
@@ -92,21 +92,21 @@
         <i class="fa fa-cloud-upload fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <h4>Daily New Update</h4>
+        <h5>Daily New Update</h5>
         <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <i class="fa fa-gift fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <h4>High quality products</h4>
+        <h5>High quality products</h5>
         <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
       </div>
       <div>
         <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
       </div>
       <div>
-        <h4>Ultra responsive</h4>
+        <h5>Ultra responsive</h5>
         <p>Duis aute irure dolor ireprehenderit in voluptate velit esse cillum dolor. eu fugiat nulla pariatur.</p>
       </div>
     </div>
@@ -118,17 +118,17 @@
   <div class="featuresholder">
     <div>
       <i class="fa fa-calendar fa-2x" aria-hidden="true"></i>
-      <h4>Events &amp; Counters</h4>
+      <h5>Events &amp; Counters</h5>
       <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
     </div>
     <div>
       <i class="fa fa-cloud-download fa-2x" aria-hidden="true"></i>
-      <h4>Data Storage</h4>
+      <h5>Data Storage</h5>
       <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
     </div>
     <div>
       <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
-      <h4>Security</h4>
+      <h5>Security</h5>
       <p>laboris nisi ut aliquip ex ea in commodo consequat. Duis aute nisi eprehenderit in voluptate velit es laboris ut.</p>
     </div>
   </div>
@@ -139,10 +139,31 @@
 </section>
 
 <section>
-  Later
+  Testimonials
 </section>
 
 <section>
+  Checkout How It Works
+</section>
+
+<section>
+  <h3>Pricing Plans</h3>
+</section>
+
+<section>
+  <h4>Over A Million People Are Using <span>Madari</span> App</h4>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit vo accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo explicabo.</p>
+  <a href="" class="linkoutline"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
+  <a href="" class="linksecondary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
+  <a href="" class="linkoutline"><i class="fa fa-windows fa-2x" aria-hidden="true"></i> Download</a>
+</section>
+
+<section>
+  <h3>Frequently Asked Questions</h3>
+</section>
+
+<section>
+  <h3>Let's Get In Contact</h3>
 </section>
 
 <footer>

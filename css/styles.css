@@ -82,6 +82,13 @@ h4 {
   h4 span {
     color: #7f65c7; }
 
+h5 {
+  font-size: 1.3em; }
+
+p {
+  font-size: 0.8em;
+  font-weight: 200; }
+
 section {
   display: inline-block;
   padding: 5% 15%;
@@ -231,15 +238,13 @@ section:nth-of-type(3) .featuresholder div div {
   section:nth-of-type(3) .featuresholder div div:nth-child(even) {
     float: left;
     width: 80%; }
-section:nth-of-type(3) .featuresholder h4 {
-  font-size: 1.3em; }
 section:nth-of-type(3) .featuresholder p {
   color: #ffffff;
   font-size: 0.8em;
   font-weight: 200;
   margin-bottom: 20%; }
 
-section:nth-of-type(3) h4 {
+section:nth-of-type(3) h5 {
   color: #ffffff; }
 
 .featuresholder {
@@ -251,13 +256,23 @@ section:nth-of-type(3) h4 {
 
 section:nth-of-type(4) .featuresholder div {
   background-color: #eef3fa;
-  margin: 2%;
+  height: 250px;
+  margin-right: 2%;
   padding: 2%;
   text-align: center; }
+  section:nth-of-type(4) .featuresholder div i {
+    color: #0891f9;
+    padding-top: 20%; }
+  section:nth-of-type(4) .featuresholder div:last-child {
+    margin-right: 0; }
+  section:nth-of-type(4) .featuresholder div h5 {
+    margin: 2% 0 4% 0; }
 
 section:nth-of-type(4) .featuresholder div:nth-child(even) {
   background-color: #7f65c7; }
-  section:nth-of-type(4) .featuresholder div:nth-child(even) h4 {
+  section:nth-of-type(4) .featuresholder div:nth-child(even) i {
+    color: #c19b00; }
+  section:nth-of-type(4) .featuresholder div:nth-child(even) h5 {
     color: #ffffff; }
   section:nth-of-type(4) .featuresholder div:nth-child(even) p {
     color: #ffffff;
