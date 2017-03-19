@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>App Landing Page | Coded by Katherine Delorme</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <img src="http://placehold.it/140x30" alt="Logo for the Madari App" />
   </div>
   <nav>
-    https://codepen.io/g13nn/pen/eHGEF
+    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
   </nav>
 </header>
 
@@ -136,30 +136,52 @@
 
 <section>
   <h3>App Screenshot</h3>
+  <div class="featuresholder">
+    <img src="http://placehold.it/660x200" alt="display of different screenshots from the app" />
+  </div>
 </section>
 
 <section>
-  Testimonials
+    <img src="http://placehold.it/150x150" alt="image of person profile" />
+    <h5>Abraham Linkan</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labioris nisi ut  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star-half-o" aria-hidden="true"></i>
 </section>
 
 <section>
-  Checkout How It Works
+  <h5>Checkout How It Works</h5>
+      <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+    <div class="featuresholder">
+      <a href="https://www.facebook.com/KatdelormeKatdesign/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/Katdelorme" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    </div>
 </section>
 
 <section>
   <h3>Pricing Plans</h3>
+  <div class="featuresholder">
+  </div>
 </section>
 
 <section>
   <h4>Over A Million People Are Using <span>Madari</span> App</h4>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit vo accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo explicabo.</p>
-  <a href="" class="linkoutline"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
-  <a href="" class="linksecondary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
-  <a href="" class="linkoutline"><i class="fa fa-windows fa-2x" aria-hidden="true"></i> Download</a>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit vo accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo explicabo.</p>
+    <div class="featuresholder">
+    <a href="" class="linkoutline"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
+    <a href="" class="linksecondary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
+    <a href="" class="linkoutline"><i class="fa fa-windows fa-2x" aria-hidden="true"></i> Download</a>
+  </div>
 </section>
 
 <section>
   <h3>Frequently Asked Questions</h3>
+  <div class="featuresholder">
+  </div>
 </section>
 
 <section>
