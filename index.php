@@ -208,6 +208,22 @@
 <section>
   <h3>Frequently Asked Questions</h3>
   <div class="featuresholder">
+      <div>
+        <h5>1. Can i change plan after buying?</h5>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium,</p>
+        <h5>2. Have any discount offer?</h5>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium,</p>
+        <h5>3. What methood follow to payment?</h5>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium,</p>
+      </div>
+      <div>
+        <h5>4. What methood follow to payment?</h5>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium,</p>
+        <h5>5. Can i change plan after buying?</h5>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium,</p>
+        <h5>6. Have any discount offer?</h5>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiumdoloremque laudantium,</p>
+      </div>
   </div>
 </section>
 

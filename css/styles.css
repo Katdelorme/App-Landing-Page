@@ -356,6 +356,16 @@ section:nth-of-type(9) {
   section:nth-of-type(9) p {
     margin-bottom: 4%; }
 
+section:nth-of-type(10) div {
+  background-color: red; }
+  section:nth-of-type(10) div:first-child {
+    background-color: green; }
+section:nth-of-type(10) h5 {
+  color: #7f65c7;
+  margin-bottom: 2%; }
+section:nth-of-type(10) p {
+  margin-bottom: 6%; }
+
 /* footer */
 footer {
   text-align: center;
