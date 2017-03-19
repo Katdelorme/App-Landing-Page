@@ -273,29 +273,28 @@ section:nth-of-type(3) h5 {
   flex: 1;
   justify-content: center; }
 
-section:nth-of-type(4) .featuresholder div {
+section:nth-of-type(4) .featuresholder div, section:nth-of-type(8) .featuresholder div {
   background-color: #eef3fa;
   height: 250px;
   margin-right: 2%;
   padding: 2%;
   text-align: center; }
-  section:nth-of-type(4) .featuresholder div i {
+  section:nth-of-type(4) .featuresholder div i, section:nth-of-type(8) .featuresholder div i {
     color: #0891f9;
     padding-top: 20%; }
-  section:nth-of-type(4) .featuresholder div:last-child {
+  section:nth-of-type(4) .featuresholder div:last-child, section:nth-of-type(8) .featuresholder div:last-child {
     margin-right: 0; }
-  section:nth-of-type(4) .featuresholder div h5 {
+  section:nth-of-type(4) .featuresholder div h5, section:nth-of-type(8) .featuresholder div h5 {
     margin: 2% 0 4% 0; }
 
-section:nth-of-type(4) .featuresholder div:nth-child(even) {
+section:nth-of-type(4) .featuresholder div:nth-child(even), section:nth-of-type(8) .featuresholder div:nth-child(even) {
   background-color: #7f65c7; }
-  section:nth-of-type(4) .featuresholder div:nth-child(even) i {
+  section:nth-of-type(4) .featuresholder div:nth-child(even) i, section:nth-of-type(8) .featuresholder div:nth-child(even) i {
     color: #c19b00; }
-  section:nth-of-type(4) .featuresholder div:nth-child(even) h5 {
+  section:nth-of-type(4) .featuresholder div:nth-child(even) h5, section:nth-of-type(8) .featuresholder div:nth-child(even) h5 {
     color: #ffffff; }
-  section:nth-of-type(4) .featuresholder div:nth-child(even) p {
-    color: #ffffff;
-    line-height: 150%; }
+  section:nth-of-type(4) .featuresholder div:nth-child(even) p, section:nth-of-type(8) .featuresholder div:nth-child(even) p {
+    color: #ffffff; }
 
 section:nth-of-type(6) {
   text-align: center; }
@@ -335,6 +334,19 @@ section:nth-of-type(7) {
       width: 40px; }
   section:nth-of-type(7) a:hover {
     color: #c19b00; }
+
+section:nth-of-type(8) .featuresholder div {
+  height: 350px; }
+  section:nth-of-type(8) .featuresholder div h4, section:nth-of-type(8) .featuresholder div h5 {
+    color: #7f65c7; }
+  section:nth-of-type(8) .featuresholder div span {
+    font-size: 0.6em;
+    margin-right: 3%; }
+  section:nth-of-type(8) .featuresholder div a {
+    margin-top: 25%; }
+
+section:nth-of-type(8) .featuresholder div:nth-child(even) h4, section:nth-of-type(8) .featuresholder div:nth-child(even) h5, section:nth-of-type(8) .featuresholder div:nth-child(even) span {
+  color: #ffffff; }
 
 section:nth-of-type(9) {
   color: #ffffff;

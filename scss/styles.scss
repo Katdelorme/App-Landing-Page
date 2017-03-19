@@ -270,7 +270,7 @@ section:nth-of-type(3) h5{
     flex: 1;
     justify-content: center;
  }
-section:nth-of-type(4) .featuresholder div{
+section:nth-of-type(4) .featuresholder div, section:nth-of-type(8) .featuresholder div{
     background-color: #eef3fa;
     height: 250px;
     margin-right: 2%;
@@ -287,7 +287,7 @@ section:nth-of-type(4) .featuresholder div{
       margin: 2% 0 4% 0;
     }
 }
-section:nth-of-type(4) .featuresholder div:nth-child(even){
+section:nth-of-type(4) .featuresholder div:nth-child(even), section:nth-of-type(8) .featuresholder div:nth-child(even){
     background-color: $primary;
     i {
       color: $secondary;
@@ -297,7 +297,6 @@ section:nth-of-type(4) .featuresholder div:nth-child(even){
     }
     p{
         color: #ffffff;
-	    line-height: 150%;
     }
 }
 section:nth-of-type(6){
@@ -346,6 +345,24 @@ section:nth-of-type(7){
     }
     a:hover{
      color: $secondary;
+    }
+}
+section:nth-of-type(8) .featuresholder div{
+    height: 350px;
+    h4, h5{
+      color: $primary;
+    }
+    span{
+      font-size: 0.6em;
+      margin-right: 3%;
+    }
+    a {
+      margin-top: 25%;
+    }
+}
+section:nth-of-type(8) .featuresholder div:nth-child(even){
+    h4, h5, span{
+      color: #ffffff;
     }
 }
 section:nth-of-type(9){

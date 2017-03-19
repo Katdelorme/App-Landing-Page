@@ -154,7 +154,7 @@
 
 <section>
   <h5>Checkout How It Works</h5>
-      <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-play fa-2x" aria-hidden="true"></i>
     <div class="featuresholder">
       <a href="https://www.facebook.com/KatdelormeKatdesign/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a href="https://twitter.com/Katdelorme" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -165,6 +165,33 @@
 <section>
   <h3>Pricing Plans</h3>
   <div class="featuresholder">
+    <div>
+      <h5>Standard</h5>
+      <h4><span>$</span>48</h4>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <a href="" class="linkprimary">Buy Now</a>
+    </div>
+    <div>
+      <h5>Personal</h5>
+      <h4><span>$</span>78</h4>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <a href="" class="linksecondary">Buy Now</a>
+    </div>
+    <div>
+      <h5>Business</h5>
+      <h4><span>$</span>98</h4>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <p>Lorem ipsum dollr sit ameat</p>
+      <a href="" class="linkprimary">Buy Now</a>
+    </div>
   </div>
 </section>
 
