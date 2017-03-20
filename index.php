@@ -256,6 +256,20 @@
 
 <section>
   <h3>Let's Get In Contact</h3>
+  <div>
+	<form>
+		<input type="text" name="name" placeholder="Name" size="30">
+		<input type="text" name="subject" placeholder="Subject" size="30">
+		<textarea name="message" placeholder="Your message here..." rows="10" cols="50"></textarea>
+		<input type="submit" value="SEND">
+	</form>
+  </div>
+  <div>
+	  <i class="fa fa-map-marker" aria-hidden="true"></i>
+	  <i class="fa fa-phone" aria-hidden="true"></i>
+	  <i class="fa fa-envelope" aria-hidden="true"></i>
+	  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+  </div>
 </section>
 
 <footer>
