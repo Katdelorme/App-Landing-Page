@@ -20,13 +20,13 @@
 	<meta name="twitter:site" content="@Katdelorme" />
 	<meta name="twitter:title" content="App Landing Page - UI to Frontend" />
 	<meta name="twitter:description" content="A website UI mockup turned webpage. An App landing page coded by Katherine Delorme. Frontend design utilizing html5, SCSS, flexbox and more." />
-	<meta name="twitter:image" content="" />
+	<meta name="twitter:image" content="http://katherinedelorme.com/applanding/appLanding.png" />
 	<!--Facebook Open Graph-->
 	<meta property="og:url" content="http://katherinedelorme.com/applanding/index.php" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="App Landing Page - UI to Frontend" />
 	<meta property="og:description" content="A website UI mockup turned webpage. An App landing page coded by Katherine Delorme. Frontend design utilizing html5, SCSS, flexbox and more." />
-	<meta property="og:image" content="" />
+	<meta property="og:image" content="http://katherinedelorme.com/applanding/appLanding.png" />
 	<!--favicon-->
 	<link rel="icon" type="image/png" href="favicon/favicon-bars.ico" />
 	<!--stylesheets-->
