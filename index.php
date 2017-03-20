@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>App Landing Page | Coded by Katherine Delorme</title>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="UTF-8">
+  <title>App Landing Page | Coded by Katherine Delorme</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="A UI design turned webpage. App landing page design by Ibrahim Emran coded by Katherine Delorme. Frontend design utilizing html5, SCSS, flexbox, CSS Selectors, CSS linter and more."/>
+	<meta name="keywords" content="website created using scss, website created using flexbox, an example of ui design turned into a website, using flexbox, css not using !important, semantice classnames, git, git project, web design, web designer , coding, designer, Katherine Delorme, user interface, female web designer, web designer in Miami, web designer in Orlando">
+	<meta name="author" content="Katherine Delorme">
+	<meta name="application-name" content="App Landing Page - UI to Frontend"/>
+	<!--Dublin Core-->
+	<meta name="DC.Title" content="App Landing Page | Coded by Katherine Delorme" />
+	<meta name="DC.Creator" content="Katherine Delorme" />
+	<meta name="DC.Subject" content="Web Design, UI to Frontend Design" />
+	<meta name="DC.Description" content="A UI design turned webpage. App landing page design by Ibrahim Emran coded by Katherine Delorme. Frontend design utilizing html5, SCSS, flexbox, CSS Selectors, CSS linter and more." />
+	<meta name="DC.Type" content="Portfolio Piece" />
+	<meta name="DC.Language" content="English" />
+	<!--Twitter Card: Summary-->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@Katdelorme" />
+	<meta name="twitter:title" content="App Landing Page - UI to Frontend" />
+	<meta name="twitter:description" content="A website UI mockup turned webpage. An App landing page coded by Katherine Delorme. Frontend design utilizing html5, SCSS, flexbox and more." />
+	<meta name="twitter:image" content="" />
+	<!--Facebook Open Graph-->
+	<meta property="og:url" content="http://katherinedelorme.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="App Landing Page - UI to Frontend" />
+	<meta property="og:description" content="A website UI mockup turned webpage. An App landing page coded by Katherine Delorme. Frontend design utilizing html5, SCSS, flexbox and more." />
+	<meta property="og:image" content="" />
+	<!--favicon-->
+	<link rel="icon" type="image/png" href="favicon/favicon-bars.ico" />
+	<!--stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
