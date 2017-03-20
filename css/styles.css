@@ -379,6 +379,14 @@ footer {
     border: 1px solid #c19b00; }
   footer p {
     text-align: center; }
+    footer p a {
+      border: none;
+      border-radius: 0;
+      color: #7f65c7;
+      height: auto;
+      width: auto; }
+    footer p a:hover {
+      color: #ffffff; }
 
 /* Media Queries */
 

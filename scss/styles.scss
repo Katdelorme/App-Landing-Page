@@ -408,6 +408,16 @@ footer{
   }
  p{
    text-align:center;
+   a{
+     border: none;
+     border-radius: 0;
+     color: $primary;
+     height: auto;
+     width: auto;
+   }
+   a:hover{
+     color: #ffffff;
+   }
   }
 }
 /* Media Queries */
