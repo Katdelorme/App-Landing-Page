@@ -362,6 +362,41 @@ section:nth-of-type(10) h5 {
 section:nth-of-type(10) p {
   margin-bottom: 6%; }
 
+section:nth-of-type(11) div {
+  float: left;
+  text-align: center;
+  width: 42%; }
+  section:nth-of-type(11) div:first-of-type {
+    margin: 0 4%; }
+section:nth-of-type(11) input[type=text], section:nth-of-type(11) textarea {
+  display: block;
+  border: #ffffff;
+  color: #4a4a4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7em;
+  margin-bottom: 4%;
+  padding: 2%; }
+section:nth-of-type(11) input[type=text] {
+  display: inline-flex;
+  width: 42%; }
+  section:nth-of-type(11) input[type=text]:first-child {
+    margin-right: 4%; }
+section:nth-of-type(11) textarea {
+  width: 96%; }
+section:nth-of-type(11) input[type=submit] {
+  background: #ffffff;
+  border: #ffffff;
+  border-radius: 3.25em;
+  color: #7f65c7;
+  display: inline-block;
+  font-size: 0.6em;
+  font-weight: 700;
+  padding: 0.8em 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap; }
+
 /* footer */
 footer {
   text-align: center;

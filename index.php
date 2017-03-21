@@ -258,9 +258,9 @@
   <h3>Let's Get In Contact</h3>
   <div>
 	<form>
-		<input type="text" name="name" placeholder="Name" size="30">
-		<input type="text" name="subject" placeholder="Subject" size="30">
-		<textarea name="message" placeholder="Your message here..." rows="10" cols="50"></textarea>
+		<input type="text" name="name" placeholder="Name" size="20">
+		<input type="text" name="subject" placeholder="Subject" size="20">
+		<textarea name="message" placeholder="Your message here..." rows="6" cols=40"></textarea>
 		<input type="submit" value="SEND">
 	</form>
   </div>
