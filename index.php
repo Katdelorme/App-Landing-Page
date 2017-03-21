@@ -265,10 +265,11 @@
 	</form>
   </div>
   <div>
-	  <i class="fa fa-map-marker" aria-hidden="true"></i>
-	  <i class="fa fa-phone" aria-hidden="true"></i>
-	  <i class="fa fa-envelope" aria-hidden="true"></i>
-	  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+	  <i class="fa fa-map-marker" aria-hidden="true"></i><p>112 Access road,<br/>Agrabad, Ctg</p>
+	  <i class="fa fa-phone" aria-hidden="true"></i><p>01848168999<br/>
+01629498116</p>
+	  <i class="fa fa-envelope" aria-hidden="true"></i><p>sample@exam.com<br/>
+www.madari.com</p>
   </div>
 </section>
 
