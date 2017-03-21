@@ -307,6 +307,7 @@ section:nth-of-type(6) {
 
 section:nth-of-type(7) {
   color: #ffffff;
+  padding: 6% 15%;
   text-align: center; }
   section:nth-of-type(7) h5 {
     font-weight: 200;
@@ -322,21 +323,24 @@ section:nth-of-type(7) {
     display: flex;
     flex: 1;
     justify-content: center; }
+  section:nth-of-type(7) div:last-child {
+    margin-top: 4%; }
+    section:nth-of-type(7) div:last-child i {
+      border: 1px solid #ffffff;
+      height: 40px;
+      width: 40px; }
   section:nth-of-type(7) a {
     border-radius: 100%;
     color: #ffffff;
     display: inline-block;
     margin: 0 1%;
     text-decoration: none; }
-    section:nth-of-type(7) a i {
-      border: 1px solid #ffffff;
-      height: 40px;
-      width: 40px; }
   section:nth-of-type(7) a:hover {
     color: #c19b00; }
 
 section:nth-of-type(8) .featuresholder div {
-  height: 350px; }
+  height: 350px;
+  width: 28%; }
   section:nth-of-type(8) .featuresholder div h4, section:nth-of-type(8) .featuresholder div h5 {
     color: #7f65c7; }
   section:nth-of-type(8) .featuresholder div span {
@@ -368,6 +372,15 @@ section:nth-of-type(11) div {
   width: 42%; }
   section:nth-of-type(11) div:first-of-type {
     margin: 0 4%; }
+  section:nth-of-type(11) div:last-of-type {
+    background-color: #ffffff; }
+  section:nth-of-type(11) div div:nth-child(odd) {
+    margin: 0;
+    width: 15%; }
+  section:nth-of-type(11) div div:nth-child(even) {
+    margin: 0 0 1% 0;
+    text-align: left;
+    width: 85%; }
 section:nth-of-type(11) input[type=text], section:nth-of-type(11) textarea {
   display: block;
   border: #ffffff;
@@ -378,7 +391,7 @@ section:nth-of-type(11) input[type=text], section:nth-of-type(11) textarea {
   padding: 2%; }
 section:nth-of-type(11) input[type=text] {
   display: inline-flex;
-  width: 42%; }
+  width: 43%; }
   section:nth-of-type(11) input[type=text]:first-child {
     margin-right: 4%; }
 section:nth-of-type(11) textarea {
@@ -396,6 +409,9 @@ section:nth-of-type(11) input[type=submit] {
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap; }
+  section:nth-of-type(11) input[type=submit]:hover {
+    background-color: #c19b00;
+    color: #ffffff; }
 
 /* footer */
 footer {

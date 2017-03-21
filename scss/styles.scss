@@ -313,6 +313,7 @@ section:nth-of-type(6){
 }
 section:nth-of-type(7){
     color: #ffffff;
+    padding: 6% 15%;
 	  text-align: center;
     h5 {
       font-weight: 200;
@@ -331,17 +332,20 @@ section:nth-of-type(7){
       flex: 1;
       justify-content: center;
     }
+    div:last-child{
+      margin-top: 4%;
+      i {
+        border: 1px solid #ffffff;
+        height: 40px;
+        width: 40px;
+      }
+    }
     a{
      border-radius: 100%;
      color: #ffffff;
      display: inline-block;
      margin: 0 1%;
      text-decoration: none;
-     i {
-       border: 1px solid #ffffff;
-       height: 40px;
-       width: 40px;
-     }
     }
     a:hover{
      color: $secondary;
@@ -349,6 +353,7 @@ section:nth-of-type(7){
 }
 section:nth-of-type(8) .featuresholder div{
     height: 350px;
+    width: 28%;
     h4, h5{
       color: $primary;
     }
@@ -399,6 +404,17 @@ section:nth-of-type(9){
       &:last-of-type{
         background-color: #ffffff;
       }
+      div{
+        &:nth-child(odd){
+          margin: 0;
+          width: 15%;
+        }
+        &:nth-child(even){
+          margin: 0 0 1% 0;
+          text-align: left;
+          width: 85%;
+        }
+      }
     }
     input[type=text], textarea{
       display: block;
@@ -411,7 +427,7 @@ section:nth-of-type(9){
     }
     input[type=text]{
       display: inline-flex;
-      width: 42%;
+      width: 43%;
       &:first-child{
         margin-right: 4%;
       }
@@ -432,6 +448,10 @@ section:nth-of-type(9){
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+      &:hover{
+        background-color: $secondary;
+        color: #ffffff;
+      }
     }
   }
 /* footer */

@@ -181,8 +181,12 @@
 
 <section>
   <h5>Checkout How It Works</h5>
-    <i class="fa fa-play fa-2x" aria-hidden="true"></i>
     <div class="featuresholder">
+      <a href="#" target="_blank">
+        <i class="fa fa-play fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="featuresholder worksocial">
       <a href="https://www.facebook.com/KatdelormeKatdesign/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a href="https://twitter.com/Katdelorme" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
@@ -265,11 +269,24 @@
 	</form>
   </div>
   <div>
-	  <i class="fa fa-map-marker" aria-hidden="true"></i><p>112 Access road,<br/>Agrabad, Ctg</p>
-	  <i class="fa fa-phone" aria-hidden="true"></i><p>01848168999<br/>
-01629498116</p>
-	  <i class="fa fa-envelope" aria-hidden="true"></i><p>sample@exam.com<br/>
-www.madari.com</p>
+    <div>
+	     <i class="fa fa-map-marker" aria-hidden="true"></i>
+    </div>
+    <div>
+      <p>112 Access road,<br/>Agrabad, Ctg</p>
+    </div>
+    <div>
+      <i class="fa fa-phone" aria-hidden="true"></i>
+    </div>
+    <div>
+      <p>01848168999<br/>01629498116</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </div>
+    <div>
+      <p>sample@exam.com<br/>www.madari.com</p>
+    </div>
   </div>
 </section>
 
