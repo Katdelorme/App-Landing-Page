@@ -496,3 +496,111 @@ footer{
   }
 }
 /* Media Queries */
+/* ///////////// responsiveness ////////////// */
+@media only screen and (max-width: 1024px) { /*kindle 600x1024*/
+}
+@media only screen and (max-width: 990px) {
+}
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 770px) {
+}
+@media only screen and (max-width: 650px) {
+}
+@media only screen and (max-width: 600px) { /*kindle 600x1024*/
+}
+@media only screen and (max-width: 480px) { /*iphone4 320x480*/
+}
+@media only screen and (max-width: 384px) { /*blackberry Z 384*/
+}
+@media only screen and (max-width: 370px) {
+}
+@media only screen and (max-width: 340px) {
+}
+@media only screen and (max-width: 320px) {/*iphone4, 5s 320x480*/
+  h1 {
+    font-size: 3.2em;
+    line-height: 100%;
+  }
+  h2 {
+    font-size: 1.9em;
+    letter-spacing: 8px;
+    line-height: 100%;
+    padding-bottom: 5%;
+  }
+  h3 {
+    font-size: 2.0em;
+  }
+  h3::after {
+    content: url(http://placehold.it/200x40);
+  }
+  .intro{
+      h2 span{
+        display: none;
+      }
+      .title{
+        width:100%;
+      }
+      .topimg{
+        margin-left: 0%;
+        margin-top: 6%;
+        width:100%;
+      }
+  }
+  .keypoints{
+    position: static;
+    width: 100%;
+    z-index: 1;
+  }
+  .button, .linkprimary:link, .linksecondary:link, .linkoutline:link {
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .featuresholder {
+    display: block;
+  }
+  section:nth-of-type(2) div:first-of-type {
+    width: 100%;
+  }
+  section:nth-of-type(2) div:last-of-type {
+    margin-left: 0%;
+    width: 100%;
+    p {
+      text-align: justify;
+    }
+  }
+  section:nth-of-type(3) .featuresholder .appfeatures {
+    margin-bottom: 6%;
+    padding-right: 0%;
+  }
+  section:nth-of-type(3) img, section:nth-of-type(5) img{
+    width: 100%;
+  }
+  section:nth-of-type(8) .featuresholder div {
+    height: auto;
+    padding: 2% 2% 8% 2%;
+    width: 100%;
+  }
+  section:nth-of-type(11) div:first-of-type {
+    margin: 0;
+  }
+  section:nth-of-type(11) div:last-of-type {
+    margin-top: 10%;
+  }
+  section:nth-of-type(11) div {
+    width: 100%;
+  }
+  section:nth-of-type(11) input[type="text"] {
+    width: 96%;
+    &:first-child {
+      margin-right: 0%;
+    }
+  }
+  footer {
+    padding: 5% 0;
+    p:first-of-type {
+      margin-top: 4%;
+    }
+  }
+}
+/* ///////////// responsiveness end////////////// */

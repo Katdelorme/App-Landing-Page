@@ -47,7 +47,7 @@
 
 <section class="intro">
   <div class="title">
-    <h2>Madari is the Best</h2>
+    <h2>Madari <span>is the Best</span></h2>
     <h1>Best Landing Page to Present Your App</h1>
     <a href="" class="linksecondary"><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
     <a href="" class="linkoutline">Learn More</a>
