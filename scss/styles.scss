@@ -504,28 +504,27 @@ footer{
 @media only screen and (max-width: 800px) {
 }
 @media only screen and (max-width: 770px) {
+  h1 {
+    line-height: 120%;
+  }
+  h2 {
+    line-height: 100%;
+  }
+  .keypoints{
+    top: 120%;
+  }
 }
 @media only screen and (max-width: 650px) {
 }
 @media only screen and (max-width: 600px) { /*kindle 600x1024*/
 }
 @media only screen and (max-width: 480px) { /*iphone4 320x480*/
-}
-@media only screen and (max-width: 384px) { /*blackberry Z 384*/
-}
-@media only screen and (max-width: 370px) {
-}
-@media only screen and (max-width: 340px) {
-}
-@media only screen and (max-width: 320px) {/*iphone4, 5s 320x480*/
   h1 {
     font-size: 3.2em;
     line-height: 100%;
   }
   h2 {
     font-size: 1.9em;
-    letter-spacing: 8px;
-    line-height: 100%;
     padding-bottom: 5%;
   }
   h3 {
@@ -560,6 +559,7 @@ footer{
     display: block;
   }
   section:nth-of-type(2) div:first-of-type {
+    margin-bottom: 5%;
     width: 100%;
   }
   section:nth-of-type(2) div:last-of-type {
@@ -602,5 +602,13 @@ footer{
       margin-top: 4%;
     }
   }
+}
+@media only screen and (max-width: 384px) { /*blackberry Z 384*/
+}
+@media only screen and (max-width: 370px) {
+}
+@media only screen and (max-width: 340px) {
+}
+@media only screen and (max-width: 320px) {/*iphone4, 5s 320x480*/
 }
 /* ///////////// responsiveness end////////////// */
