@@ -47,13 +47,13 @@
 
 <section class="intro">
   <div class="title">
-    <h2>Madari <span>is the Best</span></h2>
+    <h2>Madari <span>is the</span></h2>
     <h1>Best Landing Page to Present Your App</h1>
     <a href="" class="linksecondary"><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
     <a href="" class="linkoutline">Learn More</a>
   </div>
   <div class="topimg">
-    <img src="http://placehold.it/257x404" alt="two phones displaying the app tilted to the left" />
+    <img src="assets/appScreen.png" alt="two phones displaying the app tilted to the left" />
   </div>
   <div class="keypoints">
     <div class="points">

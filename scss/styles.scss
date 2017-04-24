@@ -139,6 +139,10 @@ nav{
   width: 40px;
 }
 /* general */
+section:first-of-type{
+  background: linear-gradient(rgba(114,81,194,0.7), rgba(114,81,194,0.8)), url("../assets/sectionBackground.jpg") no-repeat;
+  background-size:cover;
+}
 .intro{
         .title{
           display: inline-block;
@@ -168,7 +172,7 @@ nav{
 
   //left:30%;
   position: absolute;
-  top: 80%;
+  top: 82%;
   width: 70%;
   z-index: 1;
 
