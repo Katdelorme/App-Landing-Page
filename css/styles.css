@@ -464,7 +464,15 @@ footer {
 /* Media Queries */
 /* ///////////// responsiveness ////////////// */
 @media only screen and (max-width: 1024px) {
-  /*kindle 600x1024*/ }
+  /*kindle 600x1024*/
+  .keypoints {
+    top: 62%; } }
+@media only screen and (max-width: 800px) {
+  section:first-of-type {
+    padding: 12% 15% 5% 15%; }
+
+  .keypoints {
+    top: 42%; } }
 @media only screen and (max-width: 770px) {
   h1 {
     line-height: 120%; }
@@ -473,9 +481,20 @@ footer {
     line-height: 100%; }
 
   .keypoints {
-    top: 120%; } }
+    top: 52%; } }
+@media only screen and (max-width: 650px) {
+  section:first-of-type {
+    padding: 15% 15% 5% 15%; }
+
+  .keypoints {
+    top: 175%; }
+
+  .button, .linkprimary:link, .linksecondary:link, .linkoutline:link, .linkprimary:link, .linksecondary:link, .linkoutline:link {
+    margin-bottom: 2%; } }
 @media only screen and (max-width: 600px) {
-  /*kindle 600x1024*/ }
+  /*kindle 600x1024*/
+  .keypoints {
+    top: 192%; } }
 @media only screen and (max-width: 480px) {
   /*iphone4 320x480*/
   h1 {
@@ -491,6 +510,9 @@ footer {
 
   h3::after {
     content: url(http://placehold.it/200x40); }
+
+  section:first-of-type {
+    padding: 25% 15% 5% 15%; }
 
   .intro h2 span {
     display: none; }
