@@ -47,7 +47,11 @@
 
 <section class="intro">
   <div class="title">
+<<<<<<< HEAD
     <h2>Madari <span>is the</span></h2>
+=======
+    <h2>Madari <span>is the Best</span></h2>
+>>>>>>> e2d7ebcb0c421ac1d0ff1a8c48e58f33401d890b
     <h1>Best Landing Page to Present Your App</h1>
     <a href="" class="linksecondary"><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
     <a href="" class="linkoutline">Learn More</a>
@@ -264,7 +268,7 @@
 	<form>
 		<input type="text" name="name" placeholder="Name" size="20">
 		<input type="text" name="subject" placeholder="Subject" size="20">
-		<textarea name="message" placeholder="Your message here..." rows="6" cols=40"></textarea>
+		<textarea name="message" placeholder="Your message here..." rows="6" cols="40"></textarea>
 		<input type="submit" value="SEND">
 	</form>
   </div>
@@ -298,6 +302,7 @@
   <a href="https://dribbble.com/KatherineDelorme" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
   <p>&copy; 2017 copyright All rights reserved MADARI app</p>
   <p>Site mockup by <a href="https://dribbble.com/shots/3336517-Best-App-Landing-page" target="_blank">Ibrahim Emran</a> Coded with &hearts; by <a href="https://github.com/Katdelorme/App-Landing-Page" target="_blank">Katherine Delorme</a></p>
+  <p>Learn about frontend design &amp; receive updates on my newest works, <a href="http://bit.ly/1T9ulES" target="_blank">sign up for "Let's Talk Design"</a> a monthly publication.</p>
 </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js.js"></script>
