@@ -47,11 +47,7 @@
 
 <section class="intro">
   <div class="title">
-<<<<<<< HEAD
     <h2>Madari <span>is the</span></h2>
-=======
-    <h2>Madari <span>is the Best</span></h2>
->>>>>>> e2d7ebcb0c421ac1d0ff1a8c48e58f33401d890b
     <h1>Best Landing Page to Present Your App</h1>
     <a href="" class="linksecondary"><i class="fa fa-download fa-2x" aria-hidden="true"></i> Download</a>
     <a href="" class="linkoutline">Learn More</a>
