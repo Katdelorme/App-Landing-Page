@@ -155,17 +155,21 @@ section:nth-of-type(odd) {
 /* header */
 header {
   align-items: center;
-  background-color: #7f65c7;
+  /*background-color: $primary;*/
   border-bottom: 1px solid #c6bfd8;
   display: flex;
   justify-content: space-between;
   min-height: 70px;
   padding: 0 15%;
-  width: 70%; }
+  /*margin:0 15%;*/
+  width: 70%;
+  position: absolute;
+  top: 0;
+  z-index: 2; }
 
 nav {
   align-items: center;
-  background-color: #8e74ce;
+  background-color: #9b8bd1;
   color: #ffffff;
   display: flex;
   height: 40px;
@@ -176,7 +180,15 @@ nav {
 /* general */
 section:first-of-type {
   background: linear-gradient(rgba(114, 81, 194, 0.7), rgba(114, 81, 194, 0.8)), url("../assets/sectionBackground.jpg") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding: 10% 15% 5% 15%;
+  /*padding: 10% 15% 5% 15%;*/
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;*/
+  /*z-index: -1;*/ }
 
 .intro .title {
   display: inline-block;
