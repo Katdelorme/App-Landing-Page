@@ -132,6 +132,11 @@ header{
   top: 0;
   z-index: 2;
 }
+.logo{
+  img{
+    width: 15%;
+  }
+}
 nav{
   align-items: center;
   background-color: #9b8bd1;
@@ -147,13 +152,6 @@ section:first-of-type{
   background: linear-gradient(rgba(114,81,194,0.7), rgba(114,81,194,0.8)), url("../assets/sectionBackground.jpg") no-repeat;
   background-size: cover;
   padding: 10% 15% 5% 15%;
-  /*padding: 10% 15% 5% 15%;*/
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;*/
-  /*z-index: -1;*/
 }
 .intro{
         .title{
@@ -519,6 +517,11 @@ footer{
   }
 }
 @media only screen and (max-width: 990px) {
+  .logo{
+    img{
+      width: 18%;
+    }
+  }
 }
 @media only screen and (max-width: 800px) {
   section:first-of-type{
@@ -526,6 +529,11 @@ footer{
   }
   .keypoints{
     top: 42%;
+  }
+  .logo{
+    img{
+      width: 20%;
+    }
   }
 }
 @media only screen and (max-width: 770px) {
@@ -549,10 +557,20 @@ footer{
   .button, .linkprimary:link, .linksecondary:link, .linkoutline:link {
     margin-bottom: 2%;
   }
+  .logo{
+    img{
+      width: 25%;
+    }
+  }
 }
 @media only screen and (max-width: 600px) { /*kindle 600x1024*/
   .keypoints{
     top: 192%;
+  }
+  .logo{
+    img{
+      width: 35%;
+    }
   }
 }
 @media only screen and (max-width: 480px) { /*iphone4 320x480*/
@@ -569,6 +587,11 @@ footer{
   }
   h3::after {
     content: url(http://placehold.it/200x40);
+  }
+  .logo{
+    img{
+      width: 45%;
+    }
   }
   section:first-of-type{
     padding: 25% 15% 5% 15%;
@@ -644,6 +667,11 @@ footer{
   }
 }
 @media only screen and (max-width: 384px) { /*blackberry Z 384*/
+  .logo{
+    img{
+      width: 65%;
+    }
+  }
 }
 @media only screen and (max-width: 370px) {
 }

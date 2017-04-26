@@ -167,6 +167,9 @@ header {
   top: 0;
   z-index: 2; }
 
+.logo img {
+  width: 15%; }
+
 nav {
   align-items: center;
   background-color: #9b8bd1;
@@ -181,14 +184,7 @@ nav {
 section:first-of-type {
   background: linear-gradient(rgba(114, 81, 194, 0.7), rgba(114, 81, 194, 0.8)), url("../assets/sectionBackground.jpg") no-repeat;
   background-size: cover;
-  padding: 10% 15% 5% 15%;
-  /*padding: 10% 15% 5% 15%;*/
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;*/
-  /*z-index: -1;*/ }
+  padding: 10% 15% 5% 15%; }
 
 .intro .title {
   display: inline-block;
@@ -467,12 +463,18 @@ footer {
   /*kindle 600x1024*/
   .keypoints {
     top: 62%; } }
+@media only screen and (max-width: 990px) {
+  .logo img {
+    width: 18%; } }
 @media only screen and (max-width: 800px) {
   section:first-of-type {
     padding: 12% 15% 5% 15%; }
 
   .keypoints {
-    top: 42%; } }
+    top: 42%; }
+
+  .logo img {
+    width: 20%; } }
 @media only screen and (max-width: 770px) {
   h1 {
     line-height: 120%; }
@@ -490,11 +492,17 @@ footer {
     top: 175%; }
 
   .button, .linkprimary:link, .linksecondary:link, .linkoutline:link, .linkprimary:link, .linksecondary:link, .linkoutline:link {
-    margin-bottom: 2%; } }
+    margin-bottom: 2%; }
+
+  .logo img {
+    width: 25%; } }
 @media only screen and (max-width: 600px) {
   /*kindle 600x1024*/
   .keypoints {
-    top: 192%; } }
+    top: 192%; }
+
+  .logo img {
+    width: 35%; } }
 @media only screen and (max-width: 480px) {
   /*iphone4 320x480*/
   h1 {
@@ -510,6 +518,9 @@ footer {
 
   h3::after {
     content: url(http://placehold.it/200x40); }
+
+  .logo img {
+    width: 45%; }
 
   section:first-of-type {
     padding: 25% 15% 5% 15%; }
@@ -576,7 +587,9 @@ footer {
     footer p:first-of-type {
       margin-top: 4%; } }
 @media only screen and (max-width: 384px) {
-  /*blackberry Z 384*/ }
+  /*blackberry Z 384*/
+  .logo img {
+    width: 65%; } }
 @media only screen and (max-width: 320px) {
   /*iphone4, 5s 320x480*/ }
 /* ///////////// responsiveness end////////////// */

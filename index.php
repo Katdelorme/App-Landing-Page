@@ -38,7 +38,7 @@
 <body>
 <header>
   <div class="logo">
-    <img src="http://placehold.it/140x30" alt="Logo for the Madari App" />
+    <img src="assets/mandariLogo.png" alt="Logo for the Madari App" />
   </div>
   <nav>
     <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
