@@ -73,15 +73,17 @@
 
 <section>
   <h3>About Madari</h3>
-  <div>
-    <img src="http://placehold.it/317x478" alt="hand holding iphone featuring the app" />
-  </div>
-  <div>
-    <h4><span>Madari</span> is the best app for your business</h4>
-    <p>Qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis itempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Ut enim ad minim vienia no<br/>strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate goi velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <a href="" class="linksecondary"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
-    <a href="" class="linkprimary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
+  <div class="about">
+    <div>
+      <img src="assets/appAbout.png" alt="hand holding iphone featuring the app" />
+    </div>
+    <div>
+      <h4><span>Madari</span> is the best app for your business</h4>
+      <p>Qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis itempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Ut enim ad minim vienia no<br/>strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate goi velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <a href="" class="linksecondary"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
+      <a href="" class="linkprimary"><i class="fa fa-apple fa-2x" aria-hidden="true"></i> Download</a>
+    </div>
   </div>
 </section>
 
@@ -112,7 +114,7 @@
       </div>
     </div>
     <div class="appfeatures">
-      <img src="http://placehold.it/261x505" alt="A page of the app displayed on an iphone" />
+      <img src="assets/appFeature.png" alt="A page of the app displayed on an iphone" />
     </div>
     <div>
       <div>
@@ -164,12 +166,12 @@
 <section>
   <h3>App Screenshot</h3>
   <div class="featuresholder">
-    <img src="http://placehold.it/660x200" alt="display of different screenshots from the app" />
+    <img src="assets/appCarosel.png" alt="display of different screenshots from the app" />
   </div>
 </section>
 
 <section>
-    <img src="http://placehold.it/150x150" alt="image of person profile" />
+    <img src="assets/appFeedback.png" alt="image of person profile" />
     <h5>Abraham Linkan</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labioris nisi ut  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
     <i class="fa fa-star" aria-hidden="true"></i>
@@ -297,7 +299,7 @@
   <a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
   <a href="https://dribbble.com/KatherineDelorme" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
   <p>&copy; 2017 copyright All rights reserved MADARI app</p>
-  <p>Site mockup by <a href="https://dribbble.com/shots/3336517-Best-App-Landing-page" target="_blank">Ibrahim Emran</a> Coded with &hearts; by <a href="https://github.com/Katdelorme/App-Landing-Page" target="_blank">Katherine Delorme</a></p>
+  <p>Site mockup by <a href="https://dribbble.com/shots/3336517-Best-App-Landing-page" target="_blank">Ibrahim Emran</a> Coded with &hearts; by <a href="http://katherinedelorme.com" target="_blank">Katherine Delorme</a> View on <a href="https://github.com/Katdelorme/App-Landing-Page" target="_blank">GitHub</a></p>
   <p>Learn about frontend design &amp; receive updates on my newest works, <a href="http://bit.ly/1T9ulES" target="_blank">sign up for "Let's Talk Design"</a> a monthly publication.</p>
 </footer>
 

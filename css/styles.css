@@ -65,12 +65,12 @@ h2 {
 h3 {
   color: #7f65c7;
   font-size: 2.5em;
-  line-height: 150%;
+  line-height: 90%;
   text-align: center;
   text-transform: uppercase; }
 
 h3:after {
-  content: url(http://placehold.it/250x40);
+  content: url(../assets/polygonShape.png);
   display: block;
   margin-bottom: 3%; }
 
@@ -229,21 +229,27 @@ section:first-of-type {
   border-right: none; }
 
 section:nth-of-type(2) {
+  padding-bottom: 0;
   padding-top: 15%; }
-  section:nth-of-type(2) div:first-of-type {
-    float: left;
-    width: 30%; }
-    section:nth-of-type(2) div:first-of-type img {
-      width: 100%; }
-  section:nth-of-type(2) div:last-of-type {
-    float: left;
-    margin-left: 10%;
-    width: 60%; }
-    section:nth-of-type(2) div:last-of-type p {
-      margin-bottom: 4%; }
-  section:nth-of-type(2) div .linksecondary:hover {
-    background-color: #7f65c7;
-    color: #ffffff; }
+  section:nth-of-type(2) div.about {
+    /*display:flex;*/ }
+  section:nth-of-type(2) .about div {
+    /*align-self: flex-end;*/ }
+    section:nth-of-type(2) .about div:first-of-type {
+      float: left;
+      line-height: 0;
+      width: 30%; }
+      section:nth-of-type(2) .about div:first-of-type img {
+        width: 100%; }
+    section:nth-of-type(2) .about div:last-of-type {
+      float: left;
+      margin-left: 10%;
+      width: 60%; }
+      section:nth-of-type(2) .about div:last-of-type p {
+        margin-bottom: 4%; }
+    section:nth-of-type(2) .about div .linksecondary:hover {
+      background-color: #7f65c7;
+      color: #ffffff; }
 
 section:nth-of-type(3) .featuresholder .appfeatures {
   padding-right: 2%; }
@@ -320,7 +326,9 @@ section:nth-of-type(6) {
 section:nth-of-type(7) {
   color: #ffffff;
   padding: 6% 15%;
-  text-align: center; }
+  text-align: center;
+  background: linear-gradient(rgba(114, 81, 194, 0.7), rgba(114, 81, 194, 0.8)), url("../assets/sectionBackgroundVideo.jpg") no-repeat;
+  background-size: cover; }
   section:nth-of-type(7) h5 {
     font-weight: 200;
     margin-bottom: 2%; }

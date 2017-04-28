@@ -23,12 +23,12 @@ h2 {
 h3 {
   color: $primary;
   font-size: 2.5em;
-  line-height: 150%;
+  line-height: 90%;
   text-align: center;
   text-transform: uppercase;
 }
 h3:after{
-  content:url(http://placehold.it/250x40);
+  content:url(../assets/polygonShape.png);
   display: block;
   margin-bottom:3%;
 }
@@ -210,17 +210,22 @@ section:first-of-type{
   border-right: none;
 }
 section:nth-of-type(2){
+  padding-bottom:0;
   padding-top:15%;
-    div{
+    div.about{
+      /*display:flex;*/
+    }
+    .about div{
+      /*align-self: flex-end;*/
       &:first-of-type{
         float: left;
+        line-height: 0;
         width:30%;
           img{
             width: 100%;
           }
       }
       &:last-of-type{
-        //background: green;
         float: left;
         margin-left: 10%;
         width: 60%;
@@ -329,6 +334,8 @@ section:nth-of-type(7){
     color: #ffffff;
     padding: 6% 15%;
 	  text-align: center;
+    background: linear-gradient(rgba(114,81,194,0.7), rgba(114,81,194,0.8)), url("../assets/sectionBackgroundVideo.jpg") no-repeat;
+    background-size: cover;
     h5 {
       font-weight: 200;
       margin-bottom: 2%;
