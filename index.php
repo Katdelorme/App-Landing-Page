@@ -44,7 +44,7 @@
     <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
   </nav>-->
   <nav class="o-grid__item menu-collapsed">
-    <button class="c-hamburger c-hamburger--htx">
+    <button class="c-hamburger c-hamburger--htx switch">
       <span>toggle menu</span>
     </button>
     <ul>

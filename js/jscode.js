@@ -19,12 +19,13 @@
 })();
 
 (function() {
-  var menu = document.querySelector('.menu-collapsed')
+  var menu = document.querySelector(".menu-collapsed")
 
-    document.addEventListener( "click", function(e) {
+    document.querySelector(".switch").addEventListener( "click", function(e) {
       e.preventDefault();
       menu.classList.toggle('menu-expanded');
       });
+
 })();
 
 /*
