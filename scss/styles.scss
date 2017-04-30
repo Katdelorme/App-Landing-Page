@@ -137,7 +137,7 @@ header{
     width: 15%;
   }
 }
-nav{
+/*nav{
   align-items: center;
   background-color: #9b8bd1;
   color: #ffffff;
@@ -146,7 +146,7 @@ nav{
   justify-content: center;
   text-align: center;
   width: 40px;
-}
+}*/
 /* general */
 section:first-of-type{
   background: linear-gradient(rgba(114,81,194,0.7), rgba(114,81,194,0.8)), url("../assets/sectionBackground.jpg") no-repeat;
@@ -516,6 +516,168 @@ footer{
    }
   }
 }
+
+/* ---------
+  HAMBURGER ICONS COMPONENT
+----------- */
+
+// vars
+$button-width: 46px;   // The width of the button area
+$button-height: 46px;  // The height of the button area
+$bar-thickness: 4px;   // The thickness of the button bars
+$button-pad: 12px;     // The left/right padding between button area and bars.
+$button-bar-space: 4px; // The spacing between button bars
+$button-transistion-duration: 0.3s;     // The transition duration
+
+.c-hamburger {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: $button-width;
+  height: $button-height;
+  font-size: 0;
+  text-indent: -9999px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  border: none;
+  cursor: pointer;
+  transition: background $button-transistion-duration;
+}
+
+.c-hamburger:focus {
+  outline: none;
+}
+
+.c-hamburger span {
+  display: block;
+  position: absolute;
+  top: ($button-height / 2) - ($bar-thickness / 2);
+  left: $button-pad;
+  right: $button-pad;
+  height: $bar-thickness;
+  background: rgb(255,255,255);
+}
+
+.c-hamburger span::before,
+.c-hamburger span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: $bar-thickness;
+  background-color: #fff;
+  content: "";
+}
+
+.c-hamburger span::before {
+  top: -$bar-thickness - $button-bar-space;
+}
+
+.c-hamburger span::after {
+  bottom: -$bar-thickness - $button-bar-space;
+}
+.c-hamburger--htx {
+  background-color: #9b8bd1;
+}
+
+.c-hamburger--htx span {
+  transition: background 0s $button-transistion-duration;
+}
+
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+  transition-duration: $button-transistion-duration, $button-transistion-duration;
+  transition-delay: $button-transistion-duration, 0s;
+}
+
+.c-hamburger--htx span::before {
+  transition-property: top, transform;
+}
+
+.c-hamburger--htx span::after {
+  transition-property: bottom, transform;
+}
+
+/* active state, i.e. menu open */
+
+.c-hamburger--htx.is-active {
+  background-color: $secondary;
+}
+
+.c-hamburger--htx.is-active span {
+  background: none;
+}
+
+.c-hamburger--htx.is-active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.c-hamburger--htx.is-active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+  transition-delay: 0s, $button-transistion-duration;
+}
+
+.menu-collapsed {
+   /*transition: all .25s;*/
+   ul {
+      transition: all 0s;
+      /*position: fixed;
+      left: -9000px;*/
+      display: none;
+   }
+}
+.menu-expanded {
+   transition: all .25s;
+   text-align: center;
+   line-height: 50px;
+   height: 100%;
+   width: 100%;
+   border-radius: 0px;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.85);
+   position: fixed;
+   padding-top: 70px;
+   button{
+       position: fixed;
+       transition: all 0s;
+       top: 11px;
+       right: 15%;
+   }
+   ul {
+      display: block;
+      transition: all 0s;
+      position: relative;
+      left: 0;
+      z-index: 2;
+   }
+   a {
+      transition: all .15s;
+      text-decoration: none;
+      font-size: 2em;
+      padding: 5px;
+      color: #fff;
+      display: block;
+      &:hover {
+         /*background-color: rgba(white, .8);*/
+         transition: all .15s;
+         letter-spacing: 2px;
+         color: $secondary;
+         /*border: 1px solid rgba(255, 255, 255, .15);*/
+      }
+   }
+}
 /* Media Queries */
 /* ///////////// responsiveness ////////////// */
 @media only screen and (max-width: 1024px) { /*kindle 600x1024*/
@@ -687,3 +849,8 @@ footer{
 @media only screen and (max-width: 320px) {/*iphone4, 5s 320x480*/
 }
 /* ///////////// responsiveness end////////////// */
+
+//http://callmenick.com/post/animating-css-only-hamburger-menu-icons
+//https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp
+//https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+//https://codepen.io/pwsm50/pen/KHDEI

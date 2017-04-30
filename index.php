@@ -40,8 +40,24 @@
   <div class="logo">
     <img src="assets/mandariLogo.png" alt="Logo for the Madari App" />
   </div>
-  <nav>
+  <!--<nav>
     <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+  </nav>-->
+  <nav class="o-grid__item menu-collapsed">
+    <button class="c-hamburger c-hamburger--htx">
+      <span>toggle menu</span>
+    </button>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#screenshot">Screenshot</a></li>
+      <li><a href="#testimonial">Testimonial</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 </header>
 
@@ -71,7 +87,7 @@
   </div>
 </section>
 
-<section>
+<section id="about">
   <h3>About Madari</h3>
   <div class="about">
     <div>
@@ -87,7 +103,7 @@
   </div>
 </section>
 
-<section>
+<section id="features">
   <h3>App Features</h3>
   <div class="featuresholder">
     <div class="appfeatures">
@@ -142,7 +158,7 @@
   </div>
 </section>
 
-<section>
+<section id="services">
   <h3>Awesome Services</h3>
   <div class="featuresholder">
     <div>
@@ -170,7 +186,7 @@
   </div>
 </section>
 
-<section>
+<section id="testimonial">
     <img src="assets/appFeedback.png" alt="image of person profile" />
     <h5>Abraham Linkan</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labioris nisi ut  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,</p>
@@ -181,7 +197,7 @@
     <i class="fa fa-star-half-o" aria-hidden="true"></i>
 </section>
 
-<section>
+<section id="how">
   <h5>Checkout How It Works</h5>
     <div class="featuresholder">
       <a href="#" target="_blank">
@@ -195,7 +211,7 @@
     </div>
 </section>
 
-<section>
+<section id="pricing">
   <h3>Pricing Plans</h3>
   <div class="featuresholder">
     <div>
@@ -238,7 +254,7 @@
   </div>
 </section>
 
-<section>
+<section id="faq">
   <h3>Frequently Asked Questions</h3>
   <div class="featuresholder">
       <div>
@@ -260,7 +276,7 @@
   </div>
 </section>
 
-<section>
+<section id="contact">
   <h3>Let's Get In Contact</h3>
   <div>
 	<form>
@@ -304,6 +320,6 @@
 </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js.js"></script>
-
+  <script src="js/jscode.js"></script>
 </body>
 </html>
