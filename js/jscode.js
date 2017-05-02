@@ -26,6 +26,11 @@
       menu.classList.toggle('menu-expanded');
       });
 
+    document.querySelectorAll(".menuLinks").addEventListener( "click", function(e) {
+      menu.classList.remove('menu-expanded');
+      menu.classList.add('menu-collapsed');
+    });
+
 })();
 
 /*

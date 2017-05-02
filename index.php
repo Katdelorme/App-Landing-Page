@@ -48,15 +48,14 @@
       <span>toggle menu</span>
     </button>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#screenshot">Screenshot</a></li>
-      <li><a href="#testimonial">Testimonial</a></li>
-      <li><a href="#how">How It Works</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about" class="menuLinks">About</a></li>
+      <li><a href="#features" class="menuLinks">Features</a></li>
+      <li><a href="#services" class="menuLinks">Services</a></li>
+      <li><a href="#testimonial" class="menuLinks">Testimonial</a></li>
+      <li><a href="#how" class="menuLinks">How It Works</a></li>
+      <li><a href="#pricing" class="menuLinks">Pricing</a></li>
+      <li><a href="#faq" class="menuLinks">FAQ</a></li>
+      <li><a href="#contact" class="menuLinks">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -321,5 +320,13 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js.js"></script>
   <script src="js/jscode.js"></script>
+
+	<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
