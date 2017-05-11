@@ -717,6 +717,15 @@ $button-transistion-duration: 0.3s;     // The transition duration
     }
   }
 }
+@media only screen and (max-width: 895px) {
+  section:nth-of-type(2) .about div:first-of-type {
+    display: none;
+  }
+  section:nth-of-type(2) .about div:last-of-type {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 800px) {
   section:first-of-type{
     padding: 12% 15% 5% 15%;
@@ -798,7 +807,7 @@ $button-transistion-duration: 0.3s;     // The transition duration
     padding: 25% 15% 5% 15%;
   }
   .intro{
-      h2 span{
+      h2{
         display: none;
       }
       .title{

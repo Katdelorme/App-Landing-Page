@@ -629,6 +629,13 @@ footer {
 @media only screen and (max-width: 990px) {
   .logo img {
     width: 18%; } }
+@media only screen and (max-width: 895px) {
+  section:nth-of-type(2) .about div:first-of-type {
+    display: none; }
+
+  section:nth-of-type(2) .about div:last-of-type {
+    margin-left: 0%;
+    width: 100%; } }
 @media only screen and (max-width: 800px) {
   section:first-of-type {
     padding: 12% 15% 5% 15%; }
@@ -696,7 +703,7 @@ footer {
   section:first-of-type {
     padding: 25% 15% 5% 15%; }
 
-  .intro h2 span {
+  .intro h2 {
     display: none; }
   .intro .title {
     width: 100%; }
