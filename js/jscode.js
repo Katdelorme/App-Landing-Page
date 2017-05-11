@@ -1,3 +1,4 @@
+/* Menu Animation via callmenick */
 (function() {
 
   "use strict";
@@ -18,6 +19,7 @@
 
 })();
 
+/* Menu My Code */
 (function() {
   var menu = document.querySelector(".menu-collapsed")
 
