@@ -13,3 +13,13 @@ Original UI design by Ibrahim Emran
                                               CODE
 
 Hand coded and designed with &hearts; by Katherine Delorme
+
+<!--
+/**
+  * This product is meant for educational purposes only.
+
+  * The following was created for display and portfolio use only. It is not to be sold or reproduced. It may not be sold or offered for sale, or included with another software product offered for sale.
+  * Designed by Ibrahim Emran
+  * Coded by Katherine Delorme
+*/
+-->
