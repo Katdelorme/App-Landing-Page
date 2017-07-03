@@ -303,7 +303,8 @@ section:nth-of-type(4) .featuresholder div, section:nth-of-type(8) .featureshold
   padding: 2%;
   text-align: center; }
   section:nth-of-type(4) .featuresholder div i, section:nth-of-type(8) .featuresholder div i {
-    color: #0891f9;
+    /*color: #0891f9;*/
+    color: #7f65c7;
     padding-top: 20%; }
   section:nth-of-type(4) .featuresholder div:last-child, section:nth-of-type(8) .featuresholder div:last-child {
     margin-right: 0; }
