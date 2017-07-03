@@ -93,7 +93,7 @@
       <img src="assets/appAbout.png" alt="iphone featuring an app" />
     </div>
     <div>
-      <h4><span>Madari</span> is the best app for your business</h4>
+      <h4><span>Madari</span> is your business</h4>
       <p>Qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis itempor incididunt ut labore et dolore magna aliqua.</p>
       <p>Ut enim ad minim vienia no<br/>strud exercitation ullamco laboris.nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate goi velit esse cillum dolore eu fugiat nulla pariatur.</p>
       <a href="" class="linksecondary"><i class="fa fa-android fa-2x" aria-hidden="true"></i> Download</a>
@@ -284,26 +284,6 @@
 		<textarea name="message" placeholder="Your message here..." rows="6" cols="40"></textarea>
 		<input type="submit" value="SEND">
 	</form>
-  </div>
-  <div>
-    <div>
-	     <i class="fa fa-map-marker" aria-hidden="true"></i>
-    </div>
-    <div>
-      <p>112 Access road,<br/>Agrabad, Ctg</p>
-    </div>
-    <div>
-      <i class="fa fa-phone" aria-hidden="true"></i>
-    </div>
-    <div>
-      <p>01848168999<br/>01629498116</p>
-    </div>
-    <div>
-      <i class="fa fa-envelope" aria-hidden="true"></i>
-    </div>
-    <div>
-      <p>sample@exam.com<br/>www.madari.com</p>
-    </div>
   </div>
 </section>
 
