@@ -90,7 +90,7 @@
   <h3>About Madari</h3>
   <div class="about">
     <div>
-      <img src="assets/appAbout.png" alt="hand holding iphone featuring the app" />
+      <img src="assets/appAbout.png" alt="iphone featuring an app" />
     </div>
     <div>
       <h4><span>Madari</span> is the best app for your business</h4>
