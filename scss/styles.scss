@@ -181,7 +181,7 @@ section:first-of-type{
   align-items: center;
   background-color: #ffffff;
   clear: both;
-  display: flex;
+  display: none;
   flex: 1;
   justify-content: center;
   padding-bottom: 3%;
@@ -217,8 +217,7 @@ section:first-of-type{
   border-right: none;
 }
 section:nth-of-type(2){
-  /*padding-bottom:0;*/
-  padding-top:15%;
+  /*padding-top:15%;*/
     div.about{
       /*display:flex;*/
     }
@@ -672,6 +671,14 @@ $button-transistion-duration: 0.3s;     // The transition duration
 }
 /* Media Queries */
 /* ///////////// responsiveness ////////////// */
+@media only screen and (min-width: 1280px) and ( max-height: 768px ) { /*macbook pro 13inch*/
+  .keypoints{
+    display: flex;
+  }
+  section:nth-of-type(2){
+    padding-top:15%;
+  }
+}
 @media only screen and (max-width: 1024px) { /*kindle 600x1024*/
   h1 {
     line-height: 120%;
@@ -691,9 +698,6 @@ $button-transistion-duration: 0.3s;     // The transition duration
     float: left;
     width: 70%;
   }
-  /*.keypoints{
-    top: 62%;
-  }*/
 }
 @media only screen and (max-width: 990px) {
   .logo{
@@ -715,9 +719,6 @@ $button-transistion-duration: 0.3s;     // The transition duration
   section:first-of-type{
     padding: 12% 15% 5% 15%;
   }
-  /*.keypoints{
-    top: 42%;
-  }*/
   .logo{
     img{
       width: 20%;
@@ -741,17 +742,11 @@ $button-transistion-duration: 0.3s;     // The transition duration
   h2 {
     line-height: 100%;
   }
-  /*.keypoints{
-    top: 52%;
-  }*/
 }
 @media only screen and (max-width: 650px) {
   section:first-of-type{
     padding: 15% 15% 5% 15%;
   }
-  /*.keypoints{
-    top: 175%;
-  }*/
   .button, .linkprimary:link, .linksecondary:link, .linkoutline:link {
     margin-bottom: 2%;
   }
@@ -762,9 +757,6 @@ $button-transistion-duration: 0.3s;     // The transition duration
   }
 }
 @media only screen and (max-width: 600px) { /*kindle 600x1024*/
-  /*.keypoints{
-    top: 192%;
-  }*/
   .logo{
     img{
       width: 35%;
