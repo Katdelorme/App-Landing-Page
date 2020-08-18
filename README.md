@@ -1,6 +1,9 @@
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+
 # App Landing Page
-This repository is for an app landing page.
-Visit a [live view here](http://www.katherinedelorme.com/applanding/index?utm_source=github&utm_medium=repo&utm_campaign=app_landing_page_readme "App Landing Page").
+This repository is for an app landing page. A website template for promoting a phone app. Visit a **[live view here](http://www.katherinedelorme.com/applanding/index?utm_source=github&utm_medium=repo&utm_campaign=app_landing_page_readme "App Landing Page")**.
+
+![Full view of the page](https://static.dribbble.com/users/633772/screenshots/3493845/applandingthreewhite.png "Full view of the page")
 
 ## Getting Started
 You can download a zip file, fork this project, or clone with HTTPS.
@@ -45,9 +48,11 @@ You can watch and output to directories by using folder paths as your input and 
 
 For additional information visit [Sass Guideline](https://sass-lang.com/guide?utm_source=katdelormegithub&utm_medium=github "Sass Guideline").
 
+## Demo
+[![Single page navigation](http://katherinedelorme.com/assets/applanding-menu.gif)](http://www.katherinedelorme.com/applanding/index?utm_source=github&utm_medium=repo&utm_campaign=app_landing_page_readme)
+
 ## Author
 * Katherine Delorme - *[katherinedelorme.com](http://katherinedelorme.com?utm_source=github&utm_medium=repo&utm_campaign=app_landing_page_readme "Portfolio Website")*
-
 
 ## Reach Katherine Delorme
 If you would like to contact someone regarding web design project or would like to hire me for work please send an email to info@katdelorme.com
